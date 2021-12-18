@@ -1,0 +1,7 @@
+<footer class="footer">
+    <% if(themeConfig.footer) { %>
+        <%= themeConfig.footer %>
+    <% } else { %>
+    <b>© <script>document.write(new Date().getFullYear())</script> - <%=themeConfig.websiteName || "themeConfig.websiteName"%></b><br><br> Dashboard created with <a href="https://github.com/breftejk/Discord.js-Web-Dashboard" target="_blank">discord-dashboard</a>, template by wrappixel
+    <% } %>
+</footer>
